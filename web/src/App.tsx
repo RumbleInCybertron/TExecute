@@ -1,11 +1,15 @@
 import './App.css'
+import  TaskForm from './components/TaskForm';
+import TaskList from './components/TaskList';
+import './index.css'
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>    
+    <TaskForm />
+    <TaskList />
+    </>
   )
 }
 
